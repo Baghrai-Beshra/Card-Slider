@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking Google Fonts for icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+    <title>Card Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Linking SwiperJS CSS -->
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />>
+</head>
+<body>
+    <div class="container swiper">
+        <div class="card-wrapper">
+            <ul class="card-list swiper-wrapper">
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link" >
+                        <img src="images/designer.jpg" alt="Card Image" class="card-image">
+                        <p class="badge designer">Designer</p>
+                        <h2 class="card-title">Creates visually engaging layouts and designs, focusing on aesthetics, functionality, and user experience.</h2>
+                        <button class="card-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link" >
+                        <img src="images/developer.jpg" alt="Card Image" class="card-image">
+                        <p class="badge developer">Developer</p>
+                        <h2 class="card-title">Builds and maintains software applications, focusing on coding, debugging, and optimizing performance.</h2>
+                        <button class="card-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link" >
+                        <img src="images/marketer.jpg" alt="Card Image" class="card-image">
+                        <p class="badge marketer">Marketer</p>
+                        <h2 class="card-title"> Crafts strategies to promote products or services, aiming to connect with target audiences and boost engagement.</h2>
+                        <button class="card-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link" >
+                        <img src="images/gamer.jpg" alt="Card Image" class="card-image">
+                        <p class="badge gamer">Gamer</p>
+                        <h2 class="card-title"> Engages in video games for entertainment or competition, often honing skills in strategic thinking and reflexes.</h2>
+                        <button class="card-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link" >
+                        <img src="images/editor.jpg" alt="Card Image" class="card-image">
+                        <p class="badge editor">Editor</p>
+                        <h2 class="card-title">Refines and polishes content, ensuring clarity, accuracy, and alignment with the intended tone and style.</h2>
+                        <button class="card-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>                
+            </ul>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+    </div>
+    <!-- Linking SwiperJS script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Linking custom Linking -->
+    <script src="script.js"></script>
+</body>
+</html>
